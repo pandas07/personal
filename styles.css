@@ -1,0 +1,47 @@
+body {
+  padding-top: 150px;
+  background-color: #ecefb8;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+nav  ul{
+  display: inline-block;
+  text-align: center;
+  top: 100px;
+  width: 100%;
+  list-style-type: none;
+  margin: auto;
+  padding: 0;
+  overflow: hidden; /*adds scrollbars when the content of 
+  an element is too big to  fit a specified area*/
+  background-color: #454e5b;  
+}
+
+nav li {
+  display: inline-block;
+}
+
+nav a{
+  display: block;
+  color: white;
+  padding: 14px 18px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  background-color: #2a2b2d;
+}
+
+nav li a:active {
+  background-color: #000000;
+}
+
+
+footer {
+  background-color: #454e5b;
+}
+
+footer p {
+  color: white;
+}
